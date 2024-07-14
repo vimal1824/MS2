@@ -14,6 +14,6 @@ app.get("/ms2", (req, res) => {
   res.send("<h1>MS2</h1>");
 });
 
-app.listen(port, () => {
+app.listen(8081, () => {
   console.log("Server is running on port ", port);
 });
